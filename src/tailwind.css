@@ -1,4 +1,6 @@
-*, ::before, ::after {
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -52,7 +54,7 @@
   --tw-contain-style:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -554,148 +556,191 @@ video {
   display: none;
 }
 
-.my-6 {
-  margin-top: 1.5rem;
+.mx-6{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.mb-6{
   margin-bottom: 1.5rem;
 }
 
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+.mr-3{
+  margin-right: 0.75rem;
 }
 
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
-.flex {
+.flex{
   display: flex;
 }
 
-.h-screen {
+.h-8{
+  height: 2rem;
+}
+
+.h-screen{
   height: 100vh;
 }
 
-.w-\[384px\] {
+.w-8{
+  width: 2rem;
+}
+
+.w-\[384px\]{
   width: 384px;
 }
 
-.flex-col {
+.flex-col{
   flex-direction: column;
 }
 
-.items-start {
+.items-start{
   align-items: flex-start;
 }
 
-.items-center {
+.items-center{
   align-items: center;
 }
 
-.justify-start {
+.justify-start{
   justify-content: flex-start;
 }
 
-.justify-center {
+.justify-center{
   justify-content: center;
 }
 
-.gap-3 {
+.gap-3{
   gap: 0.75rem;
 }
 
-.rounded-\[20px\] {
+.rounded-\[20px\]{
   border-radius: 20px;
 }
 
-.rounded-\[4px\] {
+.rounded-\[4px\]{
   border-radius: 4px;
 }
 
-.border {
+.rounded-full{
+  border-radius: 9999px;
+}
+
+.border{
   border-width: 1px;
 }
 
-.border-black {
+.border-black{
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
-.bg-white {
+.bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-yellow {
+.bg-yellow{
   --tw-bg-opacity: 1;
   background-color: rgb(244 208 78 / var(--tw-bg-opacity));
 }
 
-.px-3 {
+.px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
 }
 
-.px-6 {
+.px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
 
-.py-1 {
+.py-1{
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
 
-.py-6 {
+.py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-\[14px\] {
+.text-\[14px\]{
   font-size: 14px;
 }
 
-.text-\[16px\] {
+.text-\[16px\]{
   font-size: 16px;
 }
 
-.text-sm {
+.text-heading{
+  font-size: 24px;
+}
+
+.text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
 
-.text-heading {
-  font-size: 24px;
+.text-small{
+  font-size: 14px;
 }
 
-.font-bold {
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-\[12px\]{
+  font-size: 12px;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.font-bold{
   font-weight: 700;
 }
 
-.font-medium {
+.font-medium{
   font-weight: 500;
 }
 
-.text-black {
+.font-extrabold{
+  font-weight: 800;
+}
+
+.text-black{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.text-gray-500 {
+.text-gray-500{
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px){
+  .sm\:mx-0{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .sm\:text-small{
+    font-size: 14px;
+  }
+
+  .sm\:text-heading{
+    font-size: 24px;
+  }
+
+  .sm\:text-\[16px\]{
+    font-size: 16px;
+  }
+
+  .sm\:text-sm{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
 }

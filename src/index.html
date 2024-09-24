@@ -6,18 +6,18 @@
       <title>Blog Preview Card</title>
       <link href="./tailwind.css" rel="stylesheet">
 </head>
-<body class="bg-yellow flex items-center justify-center h-screen">
-      <div class="w-[384px] border-black border bg-white rounded-[20px] px-6 py-6">
+<body class="flex items-center justify-center h-screen bg-yellow">
+      <div class="w-[384px] border-black border bg-white rounded-[20px] px-6 py-6 mx-6 sm:mx-0">
             <img src="./image/Blog Image.png" alt="Blog Image" class="mb-6">
-            <div class="flex flex-col items-start justify-start gap-3">
-                  <label for="learning" class="bg-yellow text-black rounded-[4px] text-[14px] font-bold px-3 py-1">Learning</label>
-                  <p class="font-medium text-sm">Published 23 Sep 2024</p>
-                  <h1 class=" font-bold text-heading">HTML & CSS foundations</h1>
-                  <p class="font-medium text-[16px] text-gray-500">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+            <div class="flex flex-col items-start justify-start gap-3 mb-6">
+                  <label for="learning" class="bg-yellow text-black rounded-[4px] text-xs sm:text-sm font-extrabold px-3 py-1">Learning</label>
+                  <p class="text-xs font-medium sm:text-sm">Published 23 Sep 2024</p>
+                  <h1 class="text-xl font-bold sm:text-heading">HTML & CSS foundations</h1>
+                  <p class="font-medium text-sm sm:text-[16px] text-gray-500">These languages are the backbone of every website, defining structure, content, and presentation.</p>
             </div>
-            <div class="flex mt-6">
-                  <img src="./image/userpic.png" alt="">
-                  <p class="font-bold text-sm">Greg Hooper</p>
+            <div class="flex items-center justify-start">
+                  <img src="./image/userpic.png" class="w-8 h-8 mr-3 rounded-full" alt="Author" ">
+                  <p class="font-bold text-small">Greg Hooper</p>
             </div>
       </div>
 
